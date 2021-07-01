@@ -10,28 +10,32 @@ print("*** Task 1: ***")
 # Do you know what are isosceles and scalene triangles? 
 # Here is a program to check if a triangle is equilateral, scalene or isosceles.
 # Uncomment the statements and click Run 
-#a=input("Enter the first side of the triangle:  ")
-#b=input("Enter the second side of the triangle: ")
-#c=input("Enter the third side of the triangle: ")
-#if (a == b) and (a==c):
-# print( "Equilateral triangle")
-#elif a == b and a!= c:
-# print("Isosceles triangle.")
-#elif a == c and a!=b:
-# print("Isosceles triangle.")
-#elif b==c and b!=a:
-# print("Isosceles triangle.")
-#else:
-# print("Scalene Triangle")
+# a=input("Enter the first side of the triangle:  ")
+# b=input("Enter the second side of the triangle: ")
+# c=input("Enter the third side of the triangle: ")
+# if (a == b) and (a==c):
+#   print( "Equilateral triangle")
+# elif a == b and a!= c:
+#   print("Isosceles triangle.")
+# elif a == c and a!=b:
+#   print("Isosceles triangle.")
+# elif b==c and b!=a:
+#   print("Isosceles triangle.")
+# else:
+#   print("Scalene Triangle")
 
 """-----------Task 1.2:  All in One ---------------"""
 print(" ")
 print("*** Task 1.2: ***")
 #The program takes a number as an input
 #Program shall check if the number is divisible by both 3 and 4
-
-
-
+# num=int(input("Enter a number:"))
+# if (num%3==0) and (num%4==0):
+#   print("The number is divisible by both 3 and 4.")
+# elif (num%3==0) or (num%4==0):
+#   print("This number can be divisble by 3 or 4.")
+# else:
+#   print("The number is not divisible by 3 and 4.")
 """---------Task 2:   Its raining Discount -------------"""
 print(" ")
 print("*** Task 2: ***")
@@ -41,12 +45,15 @@ print("*** Task 2: ***")
 # If membership is silver+ or gold, discount is 10%
 # If membership is gold+ or diamond, discount is 15%
 # if membership is platinum membership discount is 20%
-
-
-
-
-
-
+member=input("Enter which customer membership you have:")
+if member=="silver":
+  print("You will get a 5% discount.")
+elif member=="silver+" or member=="gold":
+  print("You will get a 10% discount.")
+elif member=="gold+" or member=="diamond":
+  print("You will get a 15% discount.")
+elif member=="platinum":
+  print("You will get a 20% discount.")
 
 """---------Task 3:   Theme Rides -------------"""
 print(" ")
